@@ -774,11 +774,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8022777912043772940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8d59cff462d9c44c9792d69d29d9ec0, type: 3}
+  m_Script: {fileID: 11500000, guid: 59bf5f04b03ed0f45a0b759f98089335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clothes: []
-  test: {fileID: 0}
+  clothes:
+  - {fileID: 2394872464501782252}
+  - {fileID: 2916724912573273341}
+  - {fileID: 2666056474426468125}
+  - {fileID: 3736056706290733514}
+  idClothes: 000000000100000002000000
+  previewCharacter: []
 --- !u!114 &3637780074527054957
 MonoBehaviour:
   m_ObjectHideFlags: 0

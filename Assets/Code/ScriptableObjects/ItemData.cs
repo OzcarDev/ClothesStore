@@ -11,7 +11,7 @@ public class ItemData : ScriptableObject
     [SerializeField] private float buyingPrice;
     [SerializeField] private float sellingPrice;
     [SerializeField] private SpriteLibraryAsset spriteLibrary;
-    [SerializeField] private ClothManager.ClothesType clothesType;
+    [SerializeField] private ClothesManager.ClothesType clothesType;
     [SerializeField] private float id;
 
     public string ItemName {  get { return itemName; } }
@@ -20,6 +20,6 @@ public class ItemData : ScriptableObject
     public float SellingPrice {  get { return sellingPrice; } }
     public SpriteLibraryAsset SpriteLibrary { get { return spriteLibrary; } }
     public float Id { get { return id; } }
-    public ClothManager.ClothesType ClothManager { get { return clothesType; } }
+    public ClothesManager.ClothesType ClothType { get { return clothesType; } }
 
 }
