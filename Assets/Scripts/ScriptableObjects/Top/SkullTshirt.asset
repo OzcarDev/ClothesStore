@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 395ec0af0740e464a8123335750494b6, type: 3}
-  m_Name: RedTshirt
+  m_Name: SkullTshirt
   m_EditorClassIdentifier: 
-  itemName: 
-  icon: {fileID: 0}
-  buyingPrice: 0
-  sellingPrice: 0
-  spriteLibrary: {fileID: 0}
-  id: 0
+  itemName: Skull T shirt
+  icon: {fileID: 1521942898, guid: e3e54ace8bc04954b8918e0d51e2eec4, type: 3}
+  buyingPrice: 200
+  sellingPrice: 100
+  spriteLibrary: {fileID: 7108339969198208228, guid: 3c9770f9319b88643a74184588832bce, type: 3}
+  id: 3

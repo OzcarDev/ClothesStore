@@ -723,12 +723,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3462877927277272512}
+  - component: {fileID: 2933833944853901071}
+  - component: {fileID: 2101157328819809651}
+  - component: {fileID: 3637780074527054957}
   - component: {fileID: 7636951679354822232}
   - component: {fileID: 5397323623447210172}
   - component: {fileID: 8615593724594494188}
-  - component: {fileID: 2933833944853901071}
-  - component: {fileID: 3637780074527054957}
-  - component: {fileID: 2961544873420886244}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -753,6 +753,45 @@ Transform:
   - {fileID: 7318341830675945209}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2933833944853901071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022777912043772940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab069eb5cf3e2d34985d7eb059ca2ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2101157328819809651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022777912043772940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d59cff462d9c44c9792d69d29d9ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothes: []
+  test: {fileID: 0}
+--- !u!114 &3637780074527054957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022777912043772940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c404f7f0cadb984bb2be3cae94c180d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 5
 --- !u!50 &7636951679354822232
 Rigidbody2D:
   serializedVersion: 4
@@ -927,49 +966,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &2933833944853901071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8022777912043772940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab069eb5cf3e2d34985d7eb059ca2ab8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3637780074527054957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8022777912043772940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c404f7f0cadb984bb2be3cae94c180d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 5
---- !u!114 &2961544873420886244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8022777912043772940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e5d7cd189b7a6849a90db40e0e8a0e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clothes:
-  - {fileID: 2394872464501782252}
-  - {fileID: 2916724912573273341}
-  - {fileID: 2666056474426468125}
-  - {fileID: 3736056706290733514}
-  test: {fileID: 7108339969198208228, guid: 2a15f1cf75eb252498eab55b4a0acf6e, type: 3}
 --- !u!1 &8924544403020921979
 GameObject:
   m_ObjectHideFlags: 0
