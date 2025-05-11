@@ -16,6 +16,6 @@ MonoBehaviour:
   icon: {fileID: -1074490469, guid: 22dabac26a4bea64f9adb7566a0e26c0, type: 3}
   buyingPrice: 500
   sellingPrice: 250
-  spriteLibrary: {fileID: 7108339969198208228, guid: 1cdafad354735cf489217c24b5620595, type: 3}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 2a15f1cf75eb252498eab55b4a0acf6e, type: 3}
   clothesType: 2
   id: 8

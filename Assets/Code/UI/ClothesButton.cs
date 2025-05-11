@@ -51,17 +51,18 @@ public class ClothesButton : MonoBehaviour
 
     public void SellClothes()
     {
-       
-        ClothesManager.Instance.PlayerClothController.IdClothes.Remove(idClothes);
-        ClothesManager.Instance.BuyPanel.ReloadGrid();
-        Destroy(gameObject);
+        if (GameManager.Instance.Sell(clothesData.SellingPrice,clothesData.Id))
+        {
+            ClothesManager.Instance.PlayerClothController.IdClothes.Remove(idClothes);
+            ClothesManager.Instance.BuyPanel.ReloadGrid();
+            Destroy(gameObject);
+        }
     }
 
     public void BuyClothes()
     {
         if (GameManager.Instance.Buy(clothesData.BuyingPrice))
         {
-
             ClothesManager.Instance.PlayerClothController.IdClothes.Add(idClothes);
             ClothesManager.Instance.SellPanel.ReloadGrid();
             Destroy(gameObject);
