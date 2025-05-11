@@ -23,28 +23,35 @@ public class PlayerController : MonoBehaviour
 
     public void GetMoveInput(InputAction.CallbackContext context)
     {
-        animator.SetBool("isWalking", true);
-
-
-
-        if (context.canceled)
+        if (!GameManager.Instance.IsPaused)
         {
-            animator.SetBool("isWalking", false);
-            animator.SetFloat("LastInputX", moveInput.x);
-            animator.SetFloat("LastInputY", moveInput.y);
-        }
+            animator.SetBool("isWalking", true);
 
-        moveInput = context.ReadValue<Vector2>();
-        
-        animator.SetFloat("InputX", moveInput.x);
-        animator.SetFloat("InputY", moveInput.y);
+
+
+            if (context.canceled)
+            {
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("LastInputX", moveInput.x);
+                animator.SetFloat("LastInputY", moveInput.y);
+            }
+
+            moveInput = context.ReadValue<Vector2>();
+
+            animator.SetFloat("InputX", moveInput.x);
+            animator.SetFloat("InputY", moveInput.y);
+        }
     }
 
     public void InteractInput(InputAction.CallbackContext context)
     {
         if (context.performed) 
         {
-            playerInteractor.Interact();
+            if (!GameManager.Instance.IsPaused)
+            {
+
+                playerInteractor.Interact();
+            }
         }
     }
 }

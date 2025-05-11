@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395ec0af0740e464a8123335750494b6, type: 3}
+  m_Name: Hat
+  m_EditorClassIdentifier: 
+  itemName: Blonde Gentleman
+  icon: {fileID: -876203170, guid: 15cfe535ab0058646b47e60fd6a616bf, type: 3}
+  buyingPrice: 1000
+  sellingPrice: 750
+  spriteLibrary: {fileID: 7108339969198208228, guid: 4077cb28ee4c30446b64a48851c960e6, type: 3}
+  clothesType: 2
+  id: 9

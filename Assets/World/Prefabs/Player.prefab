@@ -782,8 +782,7 @@ MonoBehaviour:
   - {fileID: 2916724912573273341}
   - {fileID: 2666056474426468125}
   - {fileID: 3736056706290733514}
-  idClothes: 000000000100000002000000
-  previewCharacter: []
+  idClothes: 010000000a0000000400000007000000
 --- !u!114 &3637780074527054957
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ public class PlayerClothController : MonoBehaviour
     public List<int> IdClothes { get { return idClothes; } }
 
   
-    public void ChangeClothes(ClothesManager.ClothesType type,SpriteLibraryAsset newClothes,Sprite spritePreview)
+    public void ChangeClothes(ClothesManager.ClothesType type,SpriteLibraryAsset newClothes)
     {
         switch (type)
         {

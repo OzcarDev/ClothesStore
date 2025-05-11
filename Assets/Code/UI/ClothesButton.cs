@@ -20,6 +20,7 @@ public class ClothesButton : MonoBehaviour
 
     public void ChangeClothes() 
     {
-        ClothesManager.Instance.PlayerClothController.ChangeClothes(type,spriteLibrary,previewSprite);
+        ClothesManager.Instance.PlayerClothController.ChangeClothes(type,spriteLibrary);
+        ClothesManager.Instance.Locker.ChangePreview(type,previewSprite);
     }
 }

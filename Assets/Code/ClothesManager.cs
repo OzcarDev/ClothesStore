@@ -13,6 +13,8 @@ public class ClothesManager : MonoBehaviour
     private static ClothesManager instance;
     public static ClothesManager Instance {  get { return instance; } }
 
+    [SerializeField] private LockerRoom locker;
+    public LockerRoom Locker { get { return locker; } }
 
     private void Awake()
     {

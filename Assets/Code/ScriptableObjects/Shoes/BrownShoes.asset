@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395ec0af0740e464a8123335750494b6, type: 3}
+  m_Name: BrownShoes
+  m_EditorClassIdentifier: 
+  itemName: Brown Shoes
+  icon: {fileID: 1057668039, guid: d6852c8fa21513741a8a87d5b0cf5df5, type: 3}
+  buyingPrice: 200
+  sellingPrice: 150
+  spriteLibrary: {fileID: 7108339969198208228, guid: a78e9b62a0b6503499462caafe71e587, type: 3}
+  clothesType: 3
+  id: 11
