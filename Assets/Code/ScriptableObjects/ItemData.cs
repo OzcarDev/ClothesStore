@@ -8,18 +8,18 @@ public class ItemData : ScriptableObject
 {
     [SerializeField] private string itemName;
     [SerializeField] private Sprite icon;
-    [SerializeField] private float buyingPrice;
-    [SerializeField] private float sellingPrice;
+    [SerializeField] private int buyingPrice;
+    [SerializeField] private int sellingPrice;
     [SerializeField] private SpriteLibraryAsset spriteLibrary;
     [SerializeField] private ClothesManager.ClothesType clothesType;
-    [SerializeField] private float id;
+    [SerializeField] private int id;
 
     public string ItemName {  get { return itemName; } }
     public Sprite Icon { get { return icon; } }
-    public float BuyingPrice { get { return buyingPrice; } }
-    public float SellingPrice {  get { return sellingPrice; } }
+    public int BuyingPrice { get { return buyingPrice; } }
+    public int SellingPrice {  get { return sellingPrice; } }
     public SpriteLibraryAsset SpriteLibrary { get { return spriteLibrary; } }
-    public float Id { get { return id; } }
+    public int Id { get { return id; } }
     public ClothesManager.ClothesType ClothType { get { return clothesType; } }
 
 }

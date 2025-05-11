@@ -10,11 +10,16 @@ public class ClothesManager : MonoBehaviour
     [SerializeField] PlayerClothController playerClothController;
     public PlayerClothController PlayerClothController {  get { return playerClothController; } }
     
-    private static ClothesManager instance;
+    private static ClothesManager instance = null;
     public static ClothesManager Instance {  get { return instance; } }
 
     [SerializeField] private LockerRoom locker;
     public LockerRoom Locker { get { return locker; } }
+
+    [SerializeField] private LockerRoom sellPanel;
+    public LockerRoom SellPanel { get { return sellPanel; } }
+    [SerializeField] private GridButtonLayoutCreator buyPanel;
+    public GridButtonLayoutCreator BuyPanel { get { return buyPanel; } }
 
     private void Awake()
     {
